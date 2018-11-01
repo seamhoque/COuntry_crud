@@ -8,10 +8,10 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-       <p>{{$country->name}}</p>
-       <p>{{$country->country_code}}</p>
-       <p>{{$country->currency_code}}</p>
-       <p>{{$country->currency_symbol}}</p>
+       <p>Country Name:  {{$country->name}}</p>
+       <p>Country code: {{$country->country_code}}</p>
+       <p>Currency code: {{$country->currency_code}}</p>
+       <p>Country Symbol: {{$country->currency_symbol}}</p>
     </div>
 </div>
 

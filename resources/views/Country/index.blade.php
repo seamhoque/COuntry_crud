@@ -5,9 +5,14 @@
 @section('content')
     
     @foreach($countries as $country)
+
+    <h1>Showing all the countries</h1>
     
     
     <ul class="list-group">
+        <a href="{{route('country.create')}}">Create country</a>
+        
+        
         <li class="list-group-item">
             <a href="{{route('country.show',['id'=>$country->id ])}}">{{$country->name}}</a>
             |
