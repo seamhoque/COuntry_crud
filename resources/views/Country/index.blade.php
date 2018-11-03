@@ -3,14 +3,16 @@
 @section ('title','All Countries')
 
 @section('content')
-    
+    <h1>Showing all the countries</h1>
+    <a href="{{route('country.create')}}">Create country</a>
     @foreach($countries as $country)
 
-    <h1>Showing all the countries</h1>
+    
+    
     
     
     <ul class="list-group">
-        <a href="{{route('country.create')}}">Create country</a>
+        
         
         
         <li class="list-group-item">
